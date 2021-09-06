@@ -1,0 +1,11 @@
+.jumbotron{
+    background-color:  rgb(70, 130, 180, .6);
+    height: 200px;
+    margin-bottom: 0%;
+}
+.jumbotron p{
+    font-size:x-large;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: x-large;
+  }
