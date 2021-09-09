@@ -1,11 +1,59 @@
+
+body{
+    background-image: url(background.jpg);
+    color: #cdcdcd;
+}
+#content{
+    padding-left: 3%;
+    padding-right: 3%;
+}
 .jumbotron{
-    background-color:  rgb(70, 130, 180, .6);
+    background-color:  #4682B4;
     height: 200px;
     margin-bottom: 0%;
+    background-image: url(header.jpg);
+    background-size: cover;
+    color: #e6e6e6;
 }
 .jumbotron p{
     font-size:x-large;
 }
-.navbar-light .navbar-nav .nav-link {
-    font-size: x-large;
-  }
+.navbar {
+    font-size: large;
+    margin-bottom: 2px;
+}
+.expectations{
+    background: rgb(0, 50, 0, .4);
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 0%;
+    width: 100%;
+    color: #cdcdcd;
+}
+.commitments{
+    background: rgb(0, 50, 0, .4);
+    padding: 20px;
+    margin-left: 2px;
+    color: #cdcdcd;
+}
+
+#webdev{
+    width: 250px;
+    float: right;
+    margin: 5px;
+}
+#layout{
+    width: 250px;
+    float: left;
+    margin: 5px;
+}
+.icon{
+    width: 90px;
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #f5faff!important;
+    }
+}
+.view,body,html{height:100%}.navbar{background-color:rgba(0, 5, 10,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#f5faff}}
+
