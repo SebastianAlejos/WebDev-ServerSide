@@ -1,0 +1,22 @@
+body{
+    padding: 40px;
+    background-color:#EFEFEF;
+}
+h1{
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #50bdd4;
+    border-color: #50bdd4;
+}
+.btn:hover{
+    background-color: #CAEBF2;
+    border-color: #CAEBF2;
+    color: black;
+}
+.lab{
+    color: #ff3b3f;
+}
+.row{
+    margin-bottom:2em;
+}
