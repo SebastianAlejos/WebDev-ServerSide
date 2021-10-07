@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-09-28 22:38:15
+/* Smarty version 3.1.39, created on 2021-10-07 11:34:59
   from 'C:\Users\basti\Documents\Fall 2021\Webdev2\WebDev-ServerSide\Smarty_exercise\public_html\templates\form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6153d1973573b5_74473853',
+  'unifunc' => 'content_615f13a37c14d2_38197342',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8481c1dec3636c02e9b3356746bfb341f3b74187' => 
     array (
       0 => 'C:\\Users\\basti\\Documents\\Fall 2021\\Webdev2\\WebDev-ServerSide\\Smarty_exercise\\public_html\\templates\\form.tpl',
-      1 => 1632883093,
+      1 => 1633620880,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6153d1973573b5_74473853 (Smarty_Internal_Template $_smarty_tpl) {
+function content_615f13a37c14d2_38197342 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,18 +33,18 @@ function content_6153d1973573b5_74473853 (Smarty_Internal_Template $_smarty_tpl)
   </head>
   <body>
     <h1>Form Developing & Processing</h1>
-    <form action="process.php" method="POST">
+    <form action="form.php" method="POST">
       <div class="row">
         <div class="col-6">
           <div class="form-group">
-            <label for="f_name" class="lab">First Name</label> 
+            <label for="fname" class="lab">First Name</label> 
             <div class="input-group">
               <div class="input-group-prepend">
                 <div class="input-group-text">
                   <i class="fa fa-address-book"></i>
                 </div>
               </div> 
-              <input id="f_name" name="f_name" type="text" class="form-control">
+              <input id="fname" name="fname" type="text" class="form-control">
             </div>
           </div>
         </div>

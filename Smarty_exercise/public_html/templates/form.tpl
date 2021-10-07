@@ -10,18 +10,18 @@
   </head>
   <body>
     <h1>Form Developing & Processing</h1>
-    <form action="index.php" method="POST">
+    <form action="form.php" method="POST">
       <div class="row">
         <div class="col-6">
           <div class="form-group">
-            <label for="f_name" class="lab">First Name</label> 
+            <label for="fname" class="lab">First Name</label> 
             <div class="input-group">
               <div class="input-group-prepend">
                 <div class="input-group-text">
                   <i class="fa fa-address-book"></i>
                 </div>
               </div> 
-              <input id="f_name" name="f_name" type="text" class="form-control">
+              <input id="fname" name="fname" type="text" class="form-control">
             </div>
           </div>
         </div>
