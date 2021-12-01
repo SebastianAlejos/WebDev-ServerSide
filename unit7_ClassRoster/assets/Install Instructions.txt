@@ -1,0 +1,15 @@
+To get the Class Roster example working, extract the zip file and put it where you can access it through localhost. Then you need to perform the following:
+1. Install the Student Course Database using the "Student Course Database.sql" file.
+2. Using phpmyadmin, create a user and password that the application can use to access 
+   the StudentCourse database.
+    a. Once the database has been created, log into phpmyadmin and click on the 
+       StudentCourse database.
+    b. Click the Privileges tab, then find the "Add user account" link below the 
+       "New" label, then provide the following:
+        User name: 291web
+        Host name: click Local
+        Password: Ni6mPMrgGCau6GX4
+        Re-type: Ni6mPMrgGCau6GX4
+    c. Go to the bottom of the page and click "Go"
+
+In your browser, navigate to the public_html folder of the unit6_ClassRoster and it should be functional.
